@@ -323,7 +323,12 @@ body{
 }
 
 @media (max-width: 768px) {
-    
+    .header_landing{
+        height: 100vh;
+    }
+    .carousel-inner{
+        max-height: 85vh;
+    }
     .landing-item{
         flex-direction:column-reverse;
         
