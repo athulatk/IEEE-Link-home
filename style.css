@@ -40,7 +40,7 @@ body{
 }
 
 .header_landing{
-    max-height: 100vh;
+    
     position: relative;
     z-index: 0;
     background: rgb(153,215,255);
@@ -82,7 +82,7 @@ body{
 }
 
 .carousel-item{
-    height:90vh;
+    min-height:90vh;
    
 }
 .about-section{
@@ -97,7 +97,7 @@ body{
     justify-content: space-between;
 }
 .awards,.about-section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,8 +131,11 @@ body{
 }
 
 .societies-section,.video-section,.featured-events-section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     position: relative;
+}
+.societies-section{
+    min-height: 80vh;
 }
 
 .flexx{
@@ -188,7 +191,7 @@ body{
 }
 
 .whats-next-section,.newsletter-section{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -336,7 +339,7 @@ body{
     }
     .landing-item1{
         align-items: flex-start;
-       
+        
     }
     .landing-item2{
         align-items: flex-end;
@@ -399,4 +402,5 @@ body{
     .about-us-img{
         width: 20rem;
     }
+
 }
