@@ -14,7 +14,7 @@ body{
 .social-icons{
     position: fixed;
     right: 0;
-    top: 35vh;
+    top: 25%;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ body{
 }
 
 .carousel-item{
-    min-height:90vh;
+    height:90vh;
    
 }
 .about-section{
@@ -325,13 +325,55 @@ body{
     margin: auto;
 }
 
-
 @media (max-width: 768px) {
     .header_landing{
         height: 100vh;
     }
     .carousel-inner1{
-        max-height: 85vh;
+        max-height: 80vh;
+    }
+    .landing-item{
+        flex-direction:column-reverse;
+        
+    }
+    .landing-item1{
+        align-items: flex-start;
+        
+    }
+    .landing-item2{
+        align-items: flex-end;
+        text-align: right;
+    }
+    .align{
+        margin: auto;
+    }
+    .hands1{
+        width: 14rem;
+    }
+    .hands2{
+        width: 5.8rem;
+    }
+    
+    .award-card{
+        transform: scale(0.85);
+        margin: auto;
+    }
+    
+    .about-us-img{
+        width: 10rem;
+    }
+    .hrule{
+        width: 100vw;
+    }
+    
+}
+
+@media (max-width: 768px) and (max-height:510px){
+    .header_landing{
+        min-height: 150vh;
+    }
+    .carousel-inner1{
+        min-height:130vh;
     }
     .landing-item{
         flex-direction:column-reverse;
