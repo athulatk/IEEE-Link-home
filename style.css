@@ -419,11 +419,20 @@ body{
     }
 }
 
-@media (max-width: 768px) and (max-height:510px){
-    .header_landing,.featured-events-section{
+@media (max-width: 850px) and (max-height:450px){
+    .header_landing{
         min-height: 150vh;
     }
-    .carousel-inner1,.carousel-inner-events{
+    .featured-events-section{
+        min-height: 150vh;
+    }
+    .carousel-item{
+        min-height: 120vh;
+    }
+    .carousel-inner-events{
+        min-height: 150vh;
+    }
+    .carousel-inner1{
         min-height:130vh;
     }
 }
